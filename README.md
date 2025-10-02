@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00ADD8&height=200&section=header&text=Task%20Tracker%20GO&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=40&desc=Go%20|%20CLI%20|%20JSON%20|%20Task%20Management&descAlignY=60&descSize=18">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00ADD8&height=200&section=header&text=Task%20Tracker&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=40&desc=Go%20|%20CLI%20|%20JSON%20|%20Task%20Management&descAlignY=60&descSize=18">
 
 <p align="center">
   <i>✅ A simple and efficient command-line task tracker application built with Go, featuring JSON-based storage and intuitive task management.</i>
@@ -78,13 +78,13 @@
 
 ```bash
 # Clone the repository | Clone o repositório
-git clone https://github.com/matheussricardoo/TaskTrackerGO.git
+git clone https://github.com/matheussricardoo/TaskTracker.git
 
 # Navigate to project directory | Navegue até o diretório do projeto
-cd TaskTrackerGO
+cd TaskTracker
 
 # Build the application | Compile a aplicação
-go build -o taskTrackerGo.exe main.go
+go build -o taskTracker.exe main.go
 
 # Or run directly | Ou execute diretamente
 go run main.go
@@ -94,17 +94,17 @@ go run main.go
 
 ```bash
 # Show help | Mostrar ajuda
-./taskTrackerGo.exe
+./taskTracker.exe
 
 # Add a new task | Adicionar uma nova tarefa
-./taskTrackerGo.exe add "Complete the project documentation"
+./taskTracker.exe add "Complete the project documentation"
 
 # List all tasks | Listar todas as tarefas
-./taskTrackerGo.exe list
+./taskTracker.exe list
 
 # Update task status | Atualizar status da tarefa
-./taskTrackerGo.exe update 1 in-progress
-./taskTrackerGo.exe update 1 done
+./taskTracker.exe update 1 in-progress
+./taskTracker.exe update 1 done
 
 # Delete a task | Deletar uma tarefa
 ./taskTrackerGo.exe delete 1
@@ -113,11 +113,11 @@ go run main.go
 ### 📁 Project Structure | Estrutura do Projeto
 
 ```
-TaskTrackerGO/
+TaskTracker/
 ├── main.go              # Main application file with all functionality
 ├── go.mod              # Go module definition
 ├── tasks.json          # JSON file for task storage (auto-generated)
-├── taskTrackerGo.exe   # Compiled executable
+├── taskTracker.exe   # Compiled executable
 └── README.md           # Project documentation
 ```
 
